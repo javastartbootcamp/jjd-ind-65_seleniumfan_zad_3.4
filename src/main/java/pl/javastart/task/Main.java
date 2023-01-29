@@ -17,8 +17,5 @@ public class Main {
 
         SpecialOffer specialOffer = new SpecialOffer(product3, "Special offer. Discount 20%", "Offer valid from 28.01 until sold out", 0.2);
         System.out.println("Special offer: " + specialOffer.getDescription());
-        specialOffer.setDiscount();
-
-        System.out.println("Product with discount: " + product3.getDescription());
     }
 }

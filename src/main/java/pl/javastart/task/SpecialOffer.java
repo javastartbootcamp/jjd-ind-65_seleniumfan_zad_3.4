@@ -13,10 +13,6 @@ public class SpecialOffer {
         this.discount = discount;
     }
 
-    void setDiscount() {
-        product.price -= product.price * discount;
-    }
-
     String getDescription() {
         return "product: " + product.name + ", " +
                 description + ", " +
